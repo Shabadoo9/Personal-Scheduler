@@ -21,7 +21,7 @@ $(function () {
       timeBlockTime.isSame(currentTime, "hour") ? "present" :
       timeBlockTime.isBefore(currentTime) ? "past" : "future"
     );
-  }); // Closing brace for the .each loop
+  });
 
   // Retrieve user input from localStorage and set it as the value in the textarea elements
   $(".time-block").each(function () {
@@ -35,4 +35,3 @@ $(function () {
   $("#currentDay").text(currentDate);
 });
 
-//edit

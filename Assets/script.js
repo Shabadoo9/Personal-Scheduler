@@ -34,3 +34,5 @@ $(function () {
   var currentDate = dayjs().format("dddd, MMMM D");
   $("#currentDay").text(currentDate);
 });
+
+//edit
